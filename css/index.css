@@ -13,6 +13,7 @@ body {
     background-size: cover;  
     flex-direction: column;
     padding: 1%;
+    
 }
 header {
     background-image:url("../img header/banner1.jpg");
@@ -27,7 +28,6 @@ header {
     width: 20%;
     height: 40%;
 }
-
 ul .navbar-nav{
     padding: 0;
 }
@@ -109,6 +109,11 @@ footer{
 }
 .redes__link{
     border-radius: 50%;
+}
+.carousel-item{
+    width: 40%;
+    margin-left: 35%;
+    margin-right: 35%;
 }
 .container h1{
     color: white;
