@@ -11,42 +11,52 @@
 </head>
 <body>
     <header>
-        <img src="./logos/image 2.png" alt="logo" class="logo">      
-        <nav class="menu">
-            <ul>
-                <li>
-                    <a href="./index.html" class="menu__link menu__link--red">Home</a>
-                </li>
-                <li>
-                    <a href="pages/Novedades.html" class="menu__link">Novedades</a>
-                </li>
-                <li>
-                    <a href="pages/productos.html" class="menu__link">Productos</a>
-                </li>
-                <li>
-                    <a href="pages/carrito.html" class="menu__link">Carrito</a>
-                </li>
-                <li>
-                    <a href="pages/contactanos.html" class="menu__link">Contactanos</a>
-                </li>
-            </ul>
+        <img src="./logos/image 2.png" alt="logo" class="logo"> 
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">  
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html"><strong>Home</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/Novedades.html"><strong>Novedades</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/productos.html"><strong>Productos</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/carrito.html"><strong>Carrito</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/contactanos.html"><strong>Contactanos</strong></a>
+                        </li>
+                    </ul>    
+                </div>
+            </div>
         </nav>
     </header> 
-    <main>   
-        <div class="images1">        
-            <img src="./img utilizadas/gokukrilin.jpg" alt="goku y krilin" width="100%" height="100%">
-        </div>
-        <div class="images3">
-             <img src="./img utilizadas/gokugt.jpg" alt="goku fase 4" width="100%" height="100%">
-        </div>
-        <p class="intro">Figuras de coleccion realizadas con resina para los fanaticos.Date una vuelta por nuestra galeria y elegi lo que mas te gusta</p>
-         </div>    
-        <div class="images2">
-            <img src="./img utilizadas/dbz.jpg" alt="goku vs frezzer" width="100%" height="100%">
-         </div>
-        <div class="images4">
-             <img src="./img utilizadas/dbsuper.jpg" alt="goku vs bills" width="100%" height="100%">
-        </div>
+    <main class="home container">
+        <div class="sub_home row d-flex justify-content-between">  
+            <div class="images1  col-sm-6  col-md-6 order-xl-1 col-xl-5">        
+                <img src="./img utilizadas/gokukrilin.jpg" alt="goku y krilin" width="100%" height="100%">
+            </div>   
+            <div class="images2  col-sm-6  col-md-6 order-xl-3 col-xl-5">
+                <img src="./img utilizadas/dbz.jpg" alt="goku vs frezzer" width="100%" height="100%">
+             </div>
+             <div class="intro  col-sm-12  col-md-12 order-xl-2 col-xl-2">
+                <article class="intro_texto">figuras de coleccion realizadas con resina para los fanaticos.Date una vuelta por nuestra galeria y elegi lo que mas te gusta </article>  
+            </div>
+            <div class="images3  col-sm-6  col-md-6 order-xl-4 col-xl-5">
+                <img src="./img utilizadas/gokugt.jpg" alt="goku fase 4" width="100%" height="100%">
+            </div>
+            <div class="images4  col-sm-6  col-md-6 order-xl-5 col-xl-5 ">
+                <img src="./img utilizadas/dbsuper.jpg" alt="goku vs bills" width="100%" height="100%">
+            </div>
+        </div>    
     </main>
     <section class="redes">
             <div class="inter__social">

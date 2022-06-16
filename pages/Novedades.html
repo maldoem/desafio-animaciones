@@ -5,66 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
     <header>
         <img src="../logos/image 2.png" alt="logo" class="logo">
-        <nav class="menu">
-            <ul>
-                <li>
-                    <a href="../index.html" class="menu__link">Home</a>
-                </li>
-                <li>
-                    <a href="../pages/Novedades.html" class="menu__link menu__link--red">Novedades</a>
-                </li>
-                <li>
-                    <a href="../pages/productos.html" class="menu__link">Productos</a>
-                </li>
-                <li>
-                    <a href="../pages/carrito.html" class="menu__link">Carrito</a>
-                </li>
-                <li>
-                    <a href="../pages/contactanos.html" class="menu__link">Contactanos</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html"><strong>Home</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/Novedades.html"><strong>Novedades</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/productos.html"><strong>Productos</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/carrito.html"><strong>Carrito</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/contactanos.html"><strong>Contactanos</strong></a>
+                        </li>
+                    </ul>    
+                </div>
+            </div>
         </nav>
     </header>
-    <main class="novedades">
-        <h1>Acerca de nuestros proximos productos a ingresar</h1>
-        <picture class="pic1"> 
-            <img src="../novedades/funko-fusion fallida gotenks.jpg" alt="" width="100%" height="100%">
-        </picture>
-        <picture class="pic2">
-            <img src="../novedades/funko-fusion-zamasu.jpg" alt="" width="100%" height="100%">
-        </picture>
-        <picture class="pic3">
-            <img src="../novedades/funko-goku-peq.jpg" alt="" width="100%" height="100%">
-        </picture>
-        <picture class="pic4">
-            <img src="../novedades/funko-goku-ss.jpg" alt="" width="100%" height="100%">
-        </picture>
-        <picture class="pic5">
-            <img src="../novedades/funko-kale.jpg" alt="" width="100%" height="100%">
-        </picture>
-        <picture class="pic6">
-            <img src="../novedades/funko-majin boo.jpg" alt="" width="100%" height="100%">
-        </picture>
-        <picture class="pic7">
-            <img src="../novedades/funko-pop-goku.jpg" alt="" width="100%" height="100%">
-        </picture>
-        <picture class="pic8">
-            <img src="../novedades/funko-zeno.jpg" alt="" width="100%" height="100%">
-        </picture>
-        <picture class="pic9">
-            <img src="../novedades/goku ssg.jpg" alt="" width="100%" height="100%">
-        </picture>
-        <picture class="pic10">
-            <img src="../novedades/shen long.jpg" alt="" width="100%" height="100%">
-        </picture>
-        <picture class="pic11">
-            <img src="../novedades/vegito-ssb.jpg" alt="" width="100%" height="100%">
-        </picture>
+    <main class="container">
+        <h1 class="text center">Acerca de nuestros proximos productos a ingresar</h1>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../novedades/funko-fusion fallida gotenks.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../novedades/funko-fusion-zamasu.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../novedades/funko-goku-peq.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../novedades/funko-goku-ss.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../novedades/funko-kale.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../novedades/funko-majin boo.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../novedades/funko-pop-goku.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../novedades/funko-zeno.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../novedades/shen long.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../novedades/goku ssg.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../novedades/vegito-ssb.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </main> 
     <section class="redes">
         <div class="inter__social">
@@ -79,7 +99,8 @@
 </section> 
 <footer>
     <p class="final">todos los derechos reservados, Malem.co </p>
-</footer>     
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>     
 </body>
 
 </html>
