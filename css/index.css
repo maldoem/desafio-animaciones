@@ -126,7 +126,7 @@ footer{
 .products {
     color: white;
     font-size: 1.5rem;
-    display: grid;
+    /*display: grid;
     grid-template-columns: repeat(4,25%);
     grid-template-rows: repeat(2,60px) repeat(2,150px);
     padding: 2px;
@@ -134,7 +134,7 @@ footer{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
     justify-content: center;
     justify-items: center;
-    grid-gap: 5px;
+    grid-gap: 5px;*/
 }
 .product2{
     color: white;
@@ -171,6 +171,12 @@ footer{
     flex-direction: column;
     text-align: center;
     gap: 1rem;
+    margin-bottom: 30rem;
+}
+.mb-3{
+    width: 40%;
+    display: flex;
+    align-self: center;
 }
 .compras{
     color: white;
