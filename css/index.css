@@ -173,10 +173,11 @@ footer{
     gap: 1rem;
     margin-bottom: 30rem;
 }
-.mb-3{
+div.mb-3{
     width: 40%;
     display: flex;
     align-self: center;
+    gap: 10px;
 }
 .compras{
     color: white;
